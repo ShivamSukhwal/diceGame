@@ -54,4 +54,6 @@ $resetBtn.addEventListener("click", function () {
   $player2Dice.textContent = "-";
   $rollBtn.style.display = "flex";
   $resetBtn.style.display = "none";
+  $player2Dice.classList.remove("active");
+  $player1Dice.classList.add("active");
 });
