@@ -14,7 +14,7 @@ button {
   color: #ffffff;
   background: sandybrown;
   padding: 1em;
-  margin-top: 3em;
+  margin: 3em auto 0 auto;
   cursor: pointer;
   border: unset;
 }
@@ -50,5 +50,4 @@ button {
 
 #resetBtn {
   display: none;
-  text-align: center;
 }
